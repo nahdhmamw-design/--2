@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>دليل الأدوية | Drug Guide - HAMAMO</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="header">
+<div class="left-name">Abdo</div>
+<div class="site-title">دليل الأدوية <span class="en">| Drug Guide</span></div>
+</header>
+<main class="container card">
+<div class="controls">
+<label>ابحث باسم الدواء (عربي/إنجليزي/مادة فعالة): <input type="search" id="search" placeholder="اكتب اسم الدواء أو المادة الفعالة..." /></label>
+<label>العمر (سنة): <input type="number" id="age" min="0" max="120" /></label>
+<select id="formFilter"><option value="">الكل حسب الصيغة</option></select>
+</div>
+<div id="list" class="list"></div>
+<div id="detail" class="detail" style="display:none"></div>
+<footer class="footer">تم التطوير بواسطة HAMAMO © 2025 — مصادر: NHS / Mayo Clinic / WHO</footer>
+</main>
+<script src="app_data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
